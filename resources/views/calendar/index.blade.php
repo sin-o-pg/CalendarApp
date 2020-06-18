@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>マイカレンダー</title>
-</head>
-<body>
+@extends('common.layout')
+@section('index')
 <table class="table table-bordered">
   <thead>
     <tr>
@@ -30,5 +26,4 @@
     @endforeach
   </tbody>
 </table>
-</body>
-</html>
+@endsection
